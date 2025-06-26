@@ -29,7 +29,7 @@ export default function Header() {
         <header
             className={`
                 py-4 z-20 w-full fixed transition-transform duration-300 border-b border-white/40
-                ${isAtTop ? 'bg-black/40' : 'bg-white/50'}
+                ${isAtTop ? 'bg-black/40' : 'bg-black/80'}
                 ${isVisible ? 'translate-y-0' : '-translate-y-full'}
                 backdrop-blur
             `}
