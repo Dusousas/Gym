@@ -19,7 +19,7 @@ export default function ServiceCards() {
                         </div>
 
                         <div className='bg-[#070606] border-y border-white/40 p-6 overflow-hidden lg:w-1/3'>
-                            <div className='bgCardService1 relative '>
+                            <div className='bgCardService2 relative '>
                                 <div className='absolute inset-0 bg-black/60 z-0' />
                                 <div className='relative z-10'>
                                     <h1 className='text-white uppercase text-3xl tracking-widest pt-8 px-8'>Group</h1>
@@ -30,7 +30,7 @@ export default function ServiceCards() {
                         </div>
 
                         <div className='bg-[#070606] border border-white/40 p-6 overflow-hidden lg:w-1/3'>
-                            <div className='bgCardService1 relative '>
+                            <div className='bgCardService3 relative '>
                                 <div className='absolute inset-0 bg-black/60 z-0' />
                                 <div className='relative z-10'>
                                     <h1 className='text-white uppercase text-3xl tracking-widest pt-8 px-8'>Group</h1>
