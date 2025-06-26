@@ -13,7 +13,7 @@ export default function ServiceCards() {
                                 <div className='relative z-10'>
                                     <h1 className='text-white uppercase text-3xl tracking-widest pt-8 px-8 '>Group</h1>
                                     <h1 className='text-white uppercase text-3xl tracking-widest pb-8 px-8'>Workout</h1>
-                                    <Nunbers />
+                                    <Nunbers number='01' />
                                 </div>
                             </div>
                         </div>
@@ -24,7 +24,7 @@ export default function ServiceCards() {
                                 <div className='relative z-10'>
                                     <h1 className='text-white uppercase text-3xl tracking-widest pt-8 px-8'>Group</h1>
                                     <h1 className='text-white uppercase text-3xl tracking-widest pb-8 px-8'>Workout</h1>
-                                    <Nunbers />
+                                    <Nunbers number='02' />
                                 </div>
                             </div>
                         </div>
@@ -35,7 +35,7 @@ export default function ServiceCards() {
                                 <div className='relative z-10'>
                                     <h1 className='text-white uppercase text-3xl tracking-widest pt-8 px-8'>Group</h1>
                                     <h1 className='text-white uppercase text-3xl tracking-widest pb-8 px-8'>Workout</h1>
-                                    <Nunbers />
+                                    <Nunbers number='03' />
                                 </div>
                             </div>
                         </div>
