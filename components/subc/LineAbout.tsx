@@ -12,8 +12,8 @@ export default function LineAbout() {
     ];
 
     return (
-        <section className= "overflow-hidden z-20 relative">
-            <div className="py-2 w-full bg-Yellow ">
+        <section className= "overflow-hidden z-20 relative h-[200px] outline-white flex items-center top-[-15px]">
+            <div className="py-2 w-full bg-Yellow absolute ">
                 <div className="whitespace-nowrap animate-slide flex w-max gap-10 border-y-3 border-GrayDark py-2">
                     {[...items, ...items].map((item, index) => (
                         <div key={index} className="flex items-center gap-10">
@@ -29,7 +29,7 @@ export default function LineAbout() {
                 </div>
             </div>
 
-            {/* <div className="py-2 w-[104%] bg-GrayDark text-white absolute bottom-0 rotate-5 ">
+            <div className="py-2 w-[101%] bg-GrayP text-white absolute rotate-4 left-[-10px] z-[-1]">
                 <div className="whitespace-nowrap animate-slide flex w-max gap-10 border-y-3 border-white py-2">
                     {[...items, ...items].map((item, index) => (
                         <div key={index} className="flex items-center gap-10">
@@ -43,7 +43,7 @@ export default function LineAbout() {
                         </div>
                     ))}
                 </div>
-            </div> */}
+            </div>
 
         </section>
 

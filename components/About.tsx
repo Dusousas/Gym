@@ -16,7 +16,7 @@ const items = [
 export default function About() {
     return (
         <>
-            <section className='bg-[#110E10] py-[49px] relative z-10'>
+            <section className='bg-[#110E10] py-20 relative z-10'>
                 <SmokeAbout />
                 <div className='maxW flex flex-col items-center lg:flex-row'>
 
@@ -54,24 +54,9 @@ export default function About() {
                     </article>
                 </div>
 
-
-                <div className="py-2 w-full bg-[#272727] text-GrayP absolute bottom-[-60px] rotate-5 z-[-1]">
-                    <div className="whitespace-nowrap animate-slide flex w-max gap-10 border-y-3 border-Graytext-GrayP py-2">
-                        {[...items, ...items].map((item, index) => (
-                            <div key={index} className="flex items-center gap-10">
-                                <h1 className="uppercase text-2xl tracking-widest text-GrayP">{item}</h1>
-                                <motion.div
-                                    animate={{ rotate: 360 }}
-                                    transition={{ repeat: Infinity, duration: 2, ease: 'linear' }}
-                                >
-                                    <GiNinjaStar className="text-2xl text-Yellow" />
-                                </motion.div>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
             <LineAbout />
+
+            </section>
 
         </>
     );
