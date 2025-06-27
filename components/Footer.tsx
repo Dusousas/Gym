@@ -3,7 +3,7 @@ import React from 'react';
 export default function Footer() {
     return (
         <>
-            <section className='bg-[#110E10] py-6'>
+            <section className='bg-amber-700 py-6'>
                 <div className='maxW'>
                     <p className='text-white text-center'>Todos os direitos reservados</p>
                 </div>

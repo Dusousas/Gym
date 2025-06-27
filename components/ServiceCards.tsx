@@ -19,7 +19,7 @@ export default function ServiceCards() {
     ];
 
     return (
-        <section className='py-8 bg-[#110E10]'>
+        <section className='pt-8 bg-[#110E10]'>
 
             <Swiper
                 spaceBetween={0}

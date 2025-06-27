@@ -5,6 +5,7 @@
   --font-Mont: 'Montserrat', sans-serif;
   --color-Yellow: #F3EA23;
   --color-GrayP: #3E3D3E;
+  --color-GrayDark: #110E10;
 }
 
 @font-face {
@@ -113,4 +114,19 @@ h1 {
   stroke-dashoffset: 500;
   animation: dash 6s ease-in-out infinite;
   animation-delay: 0.5s;
+}
+
+@layer utilities {
+  @keyframes slide {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .animate-slide {
+    animation: slide 20s linear infinite;
+  }
 }
