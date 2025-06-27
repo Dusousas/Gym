@@ -4,7 +4,7 @@ export default function Nunbers({ number }: { number: string }) {
     return (
         <div className='pb-8 pt-16'>
             <svg
-                className="pxl-item--svg-stroke"
+                className="pxl-item--svg-stroke text-[96px]"
                 strokeWidth="1.2"
                 width="200"
                 height="120"
