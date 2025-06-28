@@ -17,10 +17,10 @@
 }
 
 body, html {
-  background: var(--background);
-  color: var(--foreground);
+  background: #110E10;
   font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
+
 }
 
 .maxW {
@@ -38,6 +38,15 @@ h1 {
   height: calc(100vh);
   background-position: center;
   background-size: cover;
+  height: 100vh;
+}
+
+.bgAbout {
+  background-image: url('/bg/bg-about.png');
+  height: calc(100vh);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh;
 }
 

@@ -2,8 +2,6 @@ import React from 'react';
 import AboutEfect from './subc/AboutEfect';
 import SmokeAbout from './subc/SmokeAbout';
 import LineAbout from './subc/LineAbout';
-import { motion } from 'framer-motion';
-import { GiNinjaStar } from 'react-icons/gi';
 
 const items = [
     'Musculação',
@@ -16,7 +14,7 @@ const items = [
 export default function About() {
     return (
         <>
-            <section className='bg-[#110E10] py-20 relative z-10'>
+            <section className='bg-[#110E10] bgAbout h-[110vh] relative z-10'>
                 <SmokeAbout />
                 <div className='maxW flex flex-col items-center lg:flex-row'>
 
